@@ -1,0 +1,12 @@
+/* do you want it here */
+#include <stdio.h>
+
+int main(void) /* another one */
+/**
+ * main - entry point
+ * Description: 'No Decription'
+ * Return: Always 0 (success)
+ */
+{printf("with proper grammar, but the outcome is a peice of art,\n ");
+return (0);
+}
