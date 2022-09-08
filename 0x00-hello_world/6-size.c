@@ -7,8 +7,8 @@
  **/
 int main(void)
 {
-printf("size of char is=%i byte\n", sizeof(char));
-printf("size of int is=%i byte\n", sizof(int));
-printf("size of signed char is=%i byt\n\n\n", sizeof(unsigned char));
+printf("Size of a char %d byte(s)\n", sizeof(char));
+printf("Size of an int: %d byte(s)\n", sizeof(int));
+printf("Size of a long int: %d byte(s)\n", sizeof(int));
 return (0);
 }
