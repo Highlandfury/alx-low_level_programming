@@ -1,9 +1,12 @@
-/* do you want it here */
+/* Description dd */
 #include <stdio.h>
 /**
- * Description: 'No description'
+ * main - Entry point
+ * Description: print with printf
+ * Return: nothing
  */
-int main(void) /* another one */
-{printf("with proper grammar, but the outcome is a peice of art,\n ");
+int main(void)
+{
+printf("with proper grammar, but the outcome is a peice of art,\n");
 return (0);
 }
