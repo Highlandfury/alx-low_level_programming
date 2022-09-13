@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 /**
 * main - main entery here
 * Description: print _putchar
@@ -9,8 +9,8 @@ int main(void)
 char *sh = "_putchar";
 while (*sh)
 {
-_putchar(*su);
-su++;
+_putchar(*sh);
+sh++;
 }
 _putchar('\n');
 return (0);
