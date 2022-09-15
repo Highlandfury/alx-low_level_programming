@@ -1,18 +1,19 @@
+
 #include <stdio.h>
 /**
- * main - for infinite loop.
+ * main - causes an infinite loop.
  * Return: 0
  * betty style doc for function main goes there
  */
 int main(void)
 {
 int i;
-printf("Continuous Loop :(\n");
+printf("Infinite loop incoming :(\n");
 i = 0;
 /* while (i < 10) */
 /* { */
 /* putchar(i); */
 /* } */
-printf("Continuous Loop \\o/\n");
+printf("Infinite loop avoided! \\o/\n");
 return (0);
 }
