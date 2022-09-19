@@ -6,11 +6,7 @@
 * @n: pointer to the variable to update
 * Return: always zero
 */
-void reset_to_98(int *n);
-int main(void)
+void reset_to_98(int *n)
 {
-int n = 42;
-int *p = &n;
-*p = 98;
-return (0);
+*n = 98;
 }
