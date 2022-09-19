@@ -18,7 +18,7 @@ void print_rev(char *s)
 	while
 		(s[n] != '\0')
 		{
-			i++;
+			n++;
 		}
 	p = n - 1;
 
