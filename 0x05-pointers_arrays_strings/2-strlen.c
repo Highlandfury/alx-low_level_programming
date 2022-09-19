@@ -8,10 +8,12 @@
 */
 int _strlen(char *s)
 {
-char str [50];
-int length;
-strcpy(str, "Welcome to arrays and pointers"); 
-length = strlen(str);
-printf("legnt of %s is %d", str, length);
-return (0);
+int n;
+n = 0;
+while 
+(s[n] != '\0')
+{
+n++;
+}
+return (n);
 }
