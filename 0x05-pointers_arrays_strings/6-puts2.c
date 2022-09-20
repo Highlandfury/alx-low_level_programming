@@ -1,9 +1,10 @@
 #include "main.h"
 /**
-* puts2 - prints very other character in string.
-* @str: pointer to string
+* rev_string - reverses a string
 *
-* Return: void.
+* @s: string to reverse
+*
+* Return: Always 0.
 */
 void puts2(char *str)
 {
