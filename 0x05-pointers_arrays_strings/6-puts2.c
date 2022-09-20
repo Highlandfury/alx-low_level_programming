@@ -1,5 +1,4 @@
 #include "main.h"
-
 /**
  * rev_string - reverses a string
  *
@@ -7,8 +6,6 @@
  *
  * Return: Always 0.
  */
-
-
 void puts2(char *str)
 {
 	int i;
@@ -21,4 +18,3 @@ void puts2(char *str)
 
 	_putchar('\n');
 }
-
