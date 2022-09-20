@@ -5,38 +5,32 @@
 *
 * Return: void.
 */
-
-void uts_half(char *str)
+void puts_half(char *str)
 {
-	int i, l;
+	int n, length, mid;
 
-	i = 0;
-	while
-		(str[i] != '\0')
-		{
-			i++;
-		}
-	l = i + 1;
-
-	if (1 % 2 == 0)
+	length = 0;
+	while (str[length] != '\0')
 	{
-		for (i = 1/2; i < l - 1; i++)
-		{
-			_putchar(str[i]);
-		}
-	
+		length++;
 	}
 
+	if (length % 2 == 0)
+	{
+		mid = length / 2;
+		for (n = mid; n < length; n++)
+		{
+			_putchar(str[n]);
+		}
+	}
 	else
 	{
-		for (i = (l -1) / 2; i < l - 1; i++)
+		mid = (length - 1) / 2;
+		for (n = mid + 1; n < length; n++)
 		{
-			_putchar(str[i]);
-
+			_putchar(str[n]);
 		}
-
 	}
-
 	_putchar('\n');
-
 }
+
